@@ -17,8 +17,8 @@ const (
 	SidesSquare   NumSides = 4
 )
 
-func CalcSquare(sideLen float64, sidesNum NumSides) float64 {
-	var res float64
+func CalcSquare(sideLen float64, sidesNum NumSides) (res float64) {
+
 	switch sidesNum {
 	case 0:
 		{
